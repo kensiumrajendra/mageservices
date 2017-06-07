@@ -1,0 +1,29 @@
+{
+  "name": "kmage/services",
+  "description": "magento services",
+  "require": {
+        "magento/magento-composer-installer": "*"
+    },
+  "type": "magento2-library",
+  "license": "MIT",
+   "extra": {
+        "map": [
+            [
+                "*",
+                "kmage/services"
+            ]
+        ]
+    },
+  "autoload": {
+    "psr-4": {
+      "Kmage\\services\\": "src/Acumatica",
+    },
+  },
+  "repositories": [
+        {
+           "type": "git",
+           "url": "https://github.com/rajendra85/mageservices.git"
+
+        }
+    ]
+}
