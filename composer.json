@@ -16,8 +16,8 @@
     },
   "autoload": {
     "psr-4": {
-      "Kmage\\services\\": "src/Acumatica",
-    },
+      "Kmage\\Services\\": "src/Acumatica",
+    }
   },
   "repositories": [
         {
