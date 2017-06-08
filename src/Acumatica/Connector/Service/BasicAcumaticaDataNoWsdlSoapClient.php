@@ -5,8 +5,8 @@
  * Date: 05-06-2017
  * Time: 09:45
  */
-namespace Acumatica\Connector\Service;
-use Acumatica\Connector\Service\BasicAcumaticaDataInterface;
+namespace Kmage\Services\Connector\Service;
+use Kmage\Services\Connector\Service\BasicAcumaticaDataInterface;
 
 class BasicAcumaticaDataNoWsdlSoapClient implements BasicAcumaticaDataInterface
 {

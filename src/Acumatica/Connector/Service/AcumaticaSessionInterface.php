@@ -5,7 +5,7 @@
  * Date: 22-05-2017
  * Time: 14:02
  */
-namespace Acumatica\Connector\Service;
+namespace Kmage\Services\Connector\Service;
 
 interface AcumaticaSessionInterface
 {

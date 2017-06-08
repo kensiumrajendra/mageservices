@@ -5,8 +5,8 @@
  * Date: 22-05-2017
  * Time: 09:51
  */
-namespace Acumatica\Connector\Connection;
-use Acumatica\Connector\Connection\ConnectionDefinitionAbstract;
+namespace Kmage\Services\Connector\Connection;
+use Kmage\Services\Connector\Connection\ConnectionDefinitionAbstract;
 
 class NoWSDLClientDefinition extends ConnectionDefinitionAbstract
 {

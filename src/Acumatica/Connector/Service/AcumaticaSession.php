@@ -6,10 +6,10 @@
  * Time: 15:00
  */
 
-namespace Acumatica\Connector\Service;
+namespace Kmage\Services\Connector\Service;
 
-use Acumatica\Connector\Connection\SOAPClient;
-use Acumatica\Connector\Connection\WSDLClientDefinition;
+use Kmage\Services\Connector\Connection\SOAPClient;
+use Kmage\Services\Connector\Connection\WSDLClientDefinition;
 
 class AcumaticaSession implements AcumaticaSessionInterface
 {

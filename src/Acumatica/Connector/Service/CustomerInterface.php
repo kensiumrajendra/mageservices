@@ -5,8 +5,8 @@
  * Date: 18-05-2017
  * Time: 14:18
  */
-namespace Acumatica\Connector\Service;
-use Acumatica\Connector\Service\CustomerData;
+namespace Kmage\Services\Connector\Service;
+use Kmage\Services\Connector\Service\CustomerData;
 
 /**
  * This interface is implemented in CustomerSOAPClient, CustomerNoWSDLSOAPClient and etc..

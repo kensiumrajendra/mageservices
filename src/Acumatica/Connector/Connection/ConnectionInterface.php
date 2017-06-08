@@ -5,7 +5,7 @@
  * Date: 17-05-2017
  * Time: 20:27
  */
-namespace Acumatica\Connector\Connection;
+namespace Kmage\Services\Connector\Connection;
 
 /**
  * This interface is implemented in Regular SOAP, SOAP with No WSDL, REST, Database and etc implementations

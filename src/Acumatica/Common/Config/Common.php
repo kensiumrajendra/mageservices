@@ -5,7 +5,7 @@
  * @package    Kensium_Amconnector
  * @copyright  Copyright (c) 2016 Kensium Solution Pvt.Ltd. (http://www.kensiumsolutions.com/)
  */
-namespace Acumatica\Common\Config;
+namespace Kmage\Services\Common\Config;
 
 class Common
 {

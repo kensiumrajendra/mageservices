@@ -5,9 +5,9 @@
  * Date: 03-06-2017
  * Time: 15:41
  */
-namespace Acumatica\Connector\Service;
+namespace Kmage\Services\Connector\Service;
 
-use Acumatica\Connector\Service\AcumaticaSessionInterface;
+use Kmage\Services\Connector\Service\AcumaticaSessionInterface;
 
 class BasicAcumaticaDataFactory
 {
@@ -16,7 +16,7 @@ class BasicAcumaticaDataFactory
         switch($method)
         {
             case "NoWSDL":
-                return new \Acumatica\Connector\Service\BasicAcumaticaDataNoWsdlSoapClient($session);
+                return new \Kmage\Services\Connector\Service\BasicAcumaticaDataNoWsdlSoapClient($session);
             case "SOAP":
                 // return new CustomerSOAPClient();
 

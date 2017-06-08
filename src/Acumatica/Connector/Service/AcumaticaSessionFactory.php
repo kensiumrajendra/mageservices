@@ -5,22 +5,20 @@
  * Date: 20-05-2017
  * Time: 21:51
  */
-namespace Acumatica\Connector\Service;
+namespace Kmage\Services\Connector\Service;
 
-use Acumatica\Connector\Service\AcumaticaSessionInterface;
+use Kmage\Services\Connector\Service\AcumaticaSessionInterface;
 
 class AcumaticaSessionFactory
 {
     static function setAcumaticaSessionFactoryService($method)
     {
-        echo "SSSSSSSSSSSS";
+        // echo "SSSSSSSSSSSS";
         switch($method)
         {
             case "WSDL":
-                if(class_exists(\Acumatica\Connector\Service\AcumaticaSessionWsdlSoap())) {
-                    return new \Acumatica\Connector\Service\AcumaticaSessionWsdlSoap();
-                }
-            case "SOAP":
+                    return new \Kmage\Services\Connector\Service\AcumaticaSessionWsdlSoap();
+              case "SOAP":
                 // return new CustomerSOAPClient();
 
         }

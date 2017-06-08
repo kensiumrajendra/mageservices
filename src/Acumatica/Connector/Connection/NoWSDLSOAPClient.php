@@ -6,7 +6,7 @@
  * Time: 15:17
  */
 
-namespace Acumatica\Connector\Connection;
+namespace Kmage\Services\Connector\Connection;
 
 /**
  * This class implements ClientService for SOAP with WSDLs.

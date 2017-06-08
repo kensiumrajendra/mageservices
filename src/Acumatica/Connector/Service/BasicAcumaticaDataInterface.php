@@ -5,7 +5,7 @@
  * Date: 05-06-2017
  * Time: 08:54
  */
-namespace Acumatica\Connector\Service;
+namespace Kmage\Services\Connector\Service;
 
 
 interface BasicAcumaticaDataInterface

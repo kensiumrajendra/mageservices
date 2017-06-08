@@ -5,10 +5,10 @@
  * Date: 18-05-2017
  * Time: 14:57
  */
-namespace Acumatica\Connector\Service;
+namespace Kmage\Services\Connector\Service;
 
-use Kensium\Acumatica\Dto\CustomerData;
-use Acumatica\Connector\Connection\NoWSDLSOAPClient;
+use Kmage\Services\Common\Dto\CustomerData;
+use Kmage\Services\Connector\Connection\NoWSDLSOAPClient;
 
 /**
  * Class CustomerNoWSDLSOAPClient
